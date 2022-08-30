@@ -48,7 +48,7 @@ Days = {
   'THU' => 'Thursday',
   'FRI' => 'Friday',
   'SAT' => 'Saturday',
-  'SUN' => 'Sunday',
+  'SN' => 'Sunday',
 }
 
 get '/days' do
