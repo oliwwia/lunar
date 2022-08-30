@@ -1,0 +1,14 @@
+<form action='chosen_days' method='post'>
+      <ul class='unstyled'>
+        <% Days.each do |id, text| %>
+          <li>
+            <label class='radio'>
+              <input type='radio' name='vote_day' value='<%= id %>' id='vote_day_<%= id %>' />
+              <%= text %>
+            </label>
+          </li>
+        <% end %>
+      </ul>
+      <button type='submit' class='btn btn-primary'>Send!</button>
+    </form>
+    <p><a href='/'>Cast votes of food</a></p>
